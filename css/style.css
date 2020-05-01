@@ -74,6 +74,9 @@ nav label.menu {
 #menuToggle:checked + .nav-menu-container {
   left: 0;
 }
+.close-menu {
+  display: none;
+}
 
 .content {
   height: 80vh;
@@ -459,8 +462,7 @@ nav label.menu {
   }
 
   .close-menu {
-    text-align: right;
-    margin-bottom: 5rem;
+    display: block;
   }
   .menuToggler {
     display: inline-block;
